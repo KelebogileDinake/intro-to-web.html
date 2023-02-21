@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/primary-logo-full-colour-a.svg" alt="CodeSpace Logo" width="500" height="300">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0>
+
+        <title>Kelebogile Dinake's resume </title>
+
+    </head>
+    <body>
+        <h1> Code space academy</h1>
+        <br> 
+        <P> Imagine. Learn. Create.<br><br>
+            <b> Find us online: </b><br>
+            <ul>
+                <li><ahref="http://www.facebook.com/codespaceza">Facebook</a></li>
+                <li><ahref="http://www.instagram.com/codespaceza">Instagram</a></li>
+                <li><ahref="https://www.linkedin.com/school/codespaceza/">LinkedIn</a></li>
+            </ul>
+        </P>
+    </body>
+</html>
