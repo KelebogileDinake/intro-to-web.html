@@ -17,6 +17,14 @@ article {
     background-color: rgb(183, 77, 183);
 }
 #my-heading{
-    color: olive;
+    color: olivedrab;
 }
-.skills{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.skills {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: gray;}
+h2 {
+    color: rgb(235, 235, 95) ; font-family: cursive;
+}
+h1 {
+    font-family: sans-serif;
+}
