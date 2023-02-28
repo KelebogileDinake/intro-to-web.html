@@ -28,3 +28,6 @@ h2 {
 h1 {
     font-family: sans-serif;
 }
+article {
+    margin: 20px; border: 40px;
+}
