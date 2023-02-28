@@ -28,6 +28,15 @@ h2 {
 h1 {
     font-family: sans-serif;
 }
-article {
-    margin: 20px; border: 40px;
+header {
+    border-style: hidden; border-width: 5px;
+}
+footer {
+    border-style: hidden; border-width: 5px;
+}
+aside {
+    border-style: double; border-width: 5px; padding: 10px;
+}
+section {
+    border-style: hidden; border-width: 5px; padding-top: 5px;
 }
