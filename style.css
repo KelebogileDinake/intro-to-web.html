@@ -1,36 +1,27 @@
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: white;
+html{
+    background-color: white; border-style: double; border-radius: 3px; border-width: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 header {
-    background-color: rgb(128, 0, 128);border-style: hidden; border-width: 5px;
-}
-aside {
-    background-color: rgb(217, 140, 217); border-style: double; border-width: 5px; padding: 10px; margin-block-end: 20px;
+    background-color: purple; border-style: hidden;
 }
 footer {
-    background-color: rgb(128, 0, 128); border-style: hidden; border-width: 5px;
+    background-color: purple; border-style: hidden;
+}
+aside {
+    background-color: rgb(217,140,217); border-style: hidden;
 }
 section {
-    background-color: rgb(135, 67, 135);border-style: hidden; border-width: 5px; padding-top: 5px;
-}
-article {
-    background-color: rgb(183, 77, 183);
+    background-color: rgb(135, 67,135); border-style: hidden;
 }
 #my-heading{
     color: olivedrab;
 }
-.skills {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: gray;}
+.my-list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: gray;
+}
+img {
+    border-radius: 50%;
+}
 h2 {
-    color: rgb(235, 235, 95) ; font-family: cursive; font-size: 20px; margin: 10px; padding: 10px;
-}
-h1 {
-    font-family: sans-serif;
-}
-body {
-    margin: ;
-}
-.my-menu {
-    border: 50px; padding: 10px;
+    font-family: cursive; color: rgb(235,235,95); font-size: 20px;
 }
