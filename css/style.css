@@ -1,0 +1,44 @@
+html{
+    background-color: white; border-style: double; border-radius: 3px; border-width: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+header {
+    background-color: purple; border-style: hidden;
+}
+footer {
+    background-color: purple; border-style: hidden;
+}
+aside {
+    background-color: rgb(217,140,217); border-style: hidden; border-right: 50%;
+}
+
+#my-heading{
+    color: olivedrab;
+}
+.my-list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: gray;
+}
+img {
+    border-radius: 50%; margin-top: 50px; margin-bottom: 50px; margin-right: 10px; margin-left: 80px;
+}
+h2 {
+    font-family: cursive; color: rgb(235,235,95); font-size: 20px; 
+}
+/* Resume 6*/
+article {
+    background-color: rgb(135, 67,135); border-style: hidden;
+}
+#HTML {
+    position: static;
+}
+#header{
+    position: relative; right: 10px;
+} 
+#article {
+    position: relative; left: 10px;
+}
+#aside {
+    position:  relative; left: 10px;
+}
+#footer {
+    position:  relative; left: 10px;
+}
