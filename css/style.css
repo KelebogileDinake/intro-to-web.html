@@ -47,7 +47,6 @@ article {
 .nesting {
     display: flex;
 }
-/* flex and padding is for both to be side-side*/
   article {
     padding: 10px;
     flex: 3;
