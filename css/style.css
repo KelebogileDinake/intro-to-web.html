@@ -25,7 +25,7 @@ aside {
 }
 .my-list {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    color: gray;
+    color: oldlace;
 }
 img {
     border-radius: 50%; 
@@ -63,9 +63,18 @@ article {
     border: 3px;
 }
 .btt{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    border: 1px double;
-    background-color: black;
+    position: sticky;
+    color: antiquewhite
+    margin: -20px;
+    border: 4px double;
+    padding: -20px;
+}
+a {
+    color: olive;
+}
+p {
+    color: rgb(235,235,95);
+}
+h1 {
+    color: whitesmoke;
 }
