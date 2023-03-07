@@ -92,19 +92,30 @@
     <label for="email">Email:</lable>
     <input type="email" id="email" name="email" required>
       <br>
-      <select name="" id="select" required>
-        <option value="">Select below</option>
+      <h4>Select Response</h4>
+      <form action="#" method="get">
+        <select name="respond" required>
+        <option value="select">Select below</option>
         <option value="interview opportunity"> Interview opportunity</option>
         <option value="submission">Document submission</option>
         <option value="notsuccessful">Not Successful</option>
       </select>
+      <br>
+      <h4>Contact Me
+        <input type="radio" name="contact" value="email" required>
+        <label for="contact">Email</label>
+        <input type="radio" name="contact" value="sms" required>
+        <label for="contact">SMS</label>
+        <input type="radio" name="contact" value="call" required>
+        <label for="call">Call</label>
+      </h4>
       <br>
       <textarea name="message" id="text" cols="30" rows="10" placeholder="message here please (optional)..."></textarea>
       <br>
       <input type="submit">
     </form>
     </div>
-</div>
+    </div>
        <div class="btt">
         <h3><a style="color: antiquewhite;" href="#education">Back to top</a></h3>
        </div>
