@@ -81,14 +81,13 @@ h1 {
 /* resume7, styling footer with registration form*/
 .nest{
     display: flex;
+    padding: 50px;
 }
 .contacts {
-    padding: 10px;
     flex: 1;
 }
 .form{
     font-style: italic;
-    padding: 10px;
     flex: 3;
     color: wheat;
 }
