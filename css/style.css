@@ -78,3 +78,17 @@ p {
 h1 {
     color: whitesmoke;
 }
+/* resume7, styling footer with registration form*/
+.nest{
+    display: flex;
+}
+.contacts {
+    padding: 10px;
+    flex: 1;
+}
+.form{
+    font-style: italic;
+    padding: 10px;
+    flex: 3;
+    color: wheat;
+}
