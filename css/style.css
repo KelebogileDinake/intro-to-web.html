@@ -1,4 +1,4 @@
-body{
+div.body{
     background-color: white; 
     border-style: double; 
     border-radius: 3px; 
@@ -78,7 +78,7 @@ p {
 h1 {
     color: whitesmoke;
 }
-/* resume7, styling footer with registration form*/
+/* resume7.1, styling footer with registration form*/
 .nest{
     display: flex;
     padding: 50px;
@@ -90,4 +90,8 @@ h1 {
     font-style: italic;
     flex: 3;
     color: wheat;
+}
+/* resume7.2*/
+header{
+     background: whitesmoke url(https://www.preparedtowin.com/wp-content/uploads/2015/02/ptw039.jpg);
 }
