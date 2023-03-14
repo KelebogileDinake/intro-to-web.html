@@ -92,8 +92,11 @@ h1 {
     color: wheat;
 }
 /* resume7.2*/
-header{
+.hero{
      background: whitesmoke url(https://www.preparedtowin.com/wp-content/uploads/2015/02/ptw039.jpg);
+     /* add the blur effect*/
+     filter: blur(8px);
+     -webkit-filter: blur(8px);
 }
 /* For resume 8*/
 img{
@@ -132,7 +135,8 @@ body > header{
  }
  /* For Tablet of 1024px*/
  @media only screen and (max-width:1024px) and (min-width:769px) {
-    aside,article{background: red url(https://i.pinimg.com/736x/3e/4f/e4/3e4fe41adfb9bea369387888d7e675dd.jpg);}
+    aside,article{background: red url(https://i.pinimg.com/736x/3e/4f/e4/3e4fe41adfb9bea369387888d7e675dd.jpg);
+        filter: blur(2px);}
         footer{ background-color: burlywood;}
         header{ background: burlywood;}
         p{ color: black;}
