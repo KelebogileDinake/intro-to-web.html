@@ -9,6 +9,8 @@ header {
     background-color: purple; 
     border-style: hidden;
 }
+
+/*Change the blue text in the footer when the screen size is full (purple background) as it's not too visible */
 footer {
     background-color: purple; 
     border-style: hidden;
@@ -136,6 +138,7 @@ body > header{
  /* For Tablet of 1024px*/
  @media only screen and (max-width:1024px) and (min-width:769px) {
     aside,article{background: red url(https://i.pinimg.com/736x/3e/4f/e4/3e4fe41adfb9bea369387888d7e675dd.jpg);
+        /*remove the blur in the middle size media query, it makes the text blurry too*/
         filter: blur(2px);}
         footer{ background-color: burlywood;}
         header{ background: burlywood;}
