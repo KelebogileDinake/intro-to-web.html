@@ -1,147 +1,229 @@
-body{
-    background-color: white; 
-    border-style: double; 
-    border-radius: 3px; 
-    border-width: 10px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+body {
+    background-color: white;
+    border-style: double;
+    border-radius: 3px;
+    border-width: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 header {
-    background-color: purple; 
+    background-color: purple;
     border-style: hidden;
 }
+
 footer {
-    background-color: purple; 
+    background-color: purple;
     border-style: hidden;
     margin-top: -16px;
     padding-bottom: 10px;
 }
+
 aside {
-   background-color: rgb(217,140,217);
-    border-style: hidden; 
+    background-color: rgb(217, 140, 217);
+    border-style: hidden;
     border-right: 50%;
 }
-#my-heading{
+
+#my-heading {
     color: olivedrab;
 }
+
 .my-list {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: oldlace;
 }
+
 img {
-    border-radius: 50%; 
-    margin-top: 50px; 
-    margin-bottom: 50px; 
-    margin-right: 10px; 
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
     margin-left: 80px;
 }
+
 h2 {
-    font-family: cursive; 
-    color: rgb(235,235,95); 
+    font-family: cursive;
+    color: rgb(235, 235, 95);
     font-size: 20px;
 }
+
 /* Resume 6*/
 article {
-    background-color: rgb(135, 67,135); 
+    background-color: rgb(135, 67, 135);
     border-style: hidden
 }
+
 .nesting {
     display: flex;
 }
- article {
+
+article {
     padding: 10px;
     flex: 3;
 }
-  aside {
+
+aside {
     padding: 10px;
     flex: 2;
 }
-  header.sticky{
+
+header.sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 0 ;
+    top: 0;
     padding: 5px;
     border: 3px;
 }
-.btt{
+
+.btt {
     position: sticky;
     color: antiquewhite;
     margin: -20px;
     border: 4px double;
     padding: -20px;
+    width: fit-content;
+    margin-right: auto;
 }
+
 a {
     color: olive;
 }
+
 p {
-    color: rgb(235,235,95);
+    color: rgb(235, 235, 95);
 }
+
 h1 {
     color: whitesmoke;
 }
+
 /* resume7.1, styling footer with registration form*/
-.nest{
+.nest {
     display: flex;
     padding: 50px;
 }
+
 .contacts {
     flex: 1;
 }
-.form{
+
+.form {
     font-style: italic;
     flex: 3;
     color: wheat;
 }
+
 /* resume7.2*/
-.hero{
-     background: whitesmoke url(https://www.preparedtowin.com/wp-content/uploads/2015/02/ptw039.jpg);
-     /* add the blur effect*/
-     filter: blur(8px);
-     -webkit-filter: blur(8px);
+.hero {
+    background: whitesmoke url(https://www.preparedtowin.com/wp-content/uploads/2015/02/ptw039.jpg);
+    /* add the blur effect*/
 }
+
 /* For resume 8*/
-img{
-    max-width: 50% ; 
+img {
+    max-width: 50%;
     height: auto;
     justify-content: space-evenly;
 }
+
 /* Responsive Web Design for 3 different devices */
-body > header{
-   position: fixed;
-   top: 0}
+body>header {
+    position: fixed;
+    top: 0
+}
+
 /* For mobile of 768px*/
- @media only screen and (max-width:768px) { 
-    .picture {justify-content:center;
-               max-width: 100%;
-               left: 100%;}
-    aside{ background-color: orange; }
-    footer{ background-color: rgb(224, 170, 70);
-            font-style: italic;}
-    article{ background-color: rgb(179, 127, 31);}
-    header{ background: paleturquoise url(https://raygun.com/blog/wp-content/uploads/2014/06/Pearce.jpg)}
-    p{color: azure;}
-    a{ color: black;}
-    h1{ color:azure}
-    h2{color:navy}
-    h3{ color:paleturquoise}
-    h4{ color: blue;}
-    .btt{color: rgb(60, 60, 156);
-        margin: -0.01vw;
-        border: 4px double;
-        padding: -20px;}
-    .form{ width: 75%;
-           float:left}
-    .contacts{ width: 25%;
-               float: left;}
- }
- /* For Tablet of 1024px*/
- @media only screen and (max-width:1024px) and (min-width:769px) {
-    aside,article{background: red url(https://i.pinimg.com/736x/3e/4f/e4/3e4fe41adfb9bea369387888d7e675dd.jpg);
-        filter: blur(2px);}
-        footer{ background-color: burlywood;}
-        header{ background: burlywood;}
-        p{ color: black;}
-        h1{ color: brown}
-        h2{ color: rgb(87, 82, 82);}
+@media only screen and (max-width:768px) {
+    .picture {
+        justify-content: center;
+        max-width: 100%;
+        left: 100%;
     }
-    
-    
+
+    aside {
+        background-color: orange;
+    }
+
+    footer {
+        background-color: rgb(224, 170, 70);
+        font-style: italic;
+    }
+
+    article {
+        background-color: rgb(179, 127, 31);
+    }
+
+    header {
+        background: paleturquoise url(https://raygun.com/blog/wp-content/uploads/2014/06/Pearce.jpg)
+    }
+
+    p {
+        color: azure;
+    }
+
+    a {
+        color: black;
+    }
+
+    h1 {
+        color: azure
+    }
+
+    h2 {
+        color: navy
+    }
+
+    h3 {
+        color: paleturquoise
+    }
+
+    h4 {
+        color: blue;
+    }
+
+    .btt {
+        margin: -0.01vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form {
+        width: 70%;
+        float: left
+    }
+
+    .contacts {
+        width: 30%;
+        float: left;
+    }
+}
+
+/* For Tablet of 1024px*/
+@media only screen and (max-width:1024px) and (min-width:769px) {
+
+    aside,
+    article {
+        background: red url(https://i.pinimg.com/736x/3e/4f/e4/3e4fe41adfb9bea369387888d7e675dd.jpg);
+
+    }
+
+    footer {
+        background-color: burlywood;
+    }
+
+    header {
+        background: burlywood;
+    }
+
+    p {
+        color: black;
+    }
+
+    h1 {
+        color: brown
+    }
+
+    h2 {
+        color: rgb(87, 82, 82);
+    }
+}
